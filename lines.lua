@@ -130,11 +130,6 @@ bg_img = rdr:createTextureFromSurface(img)
 print("loaded image")
 
 
-local img, ret = image.load("Lua-SDL2.png")
-if not img then
-	error(err)
-end
-
 -- Store in global graphics
 graphics.win	= win
 graphics.rdr	= rdr

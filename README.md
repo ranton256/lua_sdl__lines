@@ -11,12 +11,14 @@ It uses the SDL2 bindings from https://github.com/Tangent128/luasdl2 .
 Of course you will need Lua installed, and later we will need lua dev package and the luarocks
 for installing other dependencies.
 
+These are the commands to install things on my test Ubuntu system.
+
     sudo apt install lua5.3
     sudo apt install liblua5.3-dev
     sudo apt install luarocks
 
 You need lua-sdl2 bindings installed.
-You can install this with luarocks like this:
+You can install this with [luarocks](https://luarocks.org/) like this:
 
     sudo luarocks install lua-sdl2
 
